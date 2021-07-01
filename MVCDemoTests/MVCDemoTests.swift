@@ -1,10 +1,4 @@
-//
-//  MVCDemoTests.swift
-//  MVCDemoTests
-//
-//  Created by Yuvraj  Kale on 2/08/20.
-//  Copyright © 2020 Yuvraj  Kale. All rights reserved.
-//
+
 
 import XCTest
 @testable import MVCDemo

@@ -1,10 +1,4 @@
-//
-//  TodoViewModel.swift
-//  MVCDemo
-//
-//  Created by Yuvraj  Kale on 2/08/20.
-//  Copyright © 2020 Yuvraj  Kale. All rights reserved.
-//
+
 
 import Foundation
 import UIKit
