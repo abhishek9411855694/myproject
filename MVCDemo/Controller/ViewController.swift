@@ -44,22 +44,10 @@ extension ViewController:UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "democell", for: indexPath) as! DemoTableViewCell
         let currentTodoVM = self.todoVM?[indexPath.row]
         cell.todo = currentTodoVM
-//        cell.showData(todo:currentTodo!)
         return cell
     }
     
-//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-//        if(!pagingOver){
-//            if(indexPath.row == articles.count-1 ){
-//                var paging : Int
-//                paging = articles.count/10
-//                paging = paging + 1
-//                print("pagin = \(paging) and count = \(articles.count)")
-//                getArticle(withIndex: paging)
-//            }
-//        }
-        
-//    }
+
 }
 extension ViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
