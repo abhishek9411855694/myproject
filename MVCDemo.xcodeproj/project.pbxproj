@@ -19,7 +19,6 @@
 		824FBE5824D6C88B002D08CC /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FBE5724D6C88B002D08CC /* DemoTableViewCell.swift */; };
 		824FBE5C24D6C903002D08CC /* Todomodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FBE5B24D6C903002D08CC /* Todomodel.swift */; };
 		824FBE6224D6CA00002D08CC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FBE6124D6CA00002D08CC /* Service.swift */; };
-		824FBE6524D6D260002D08CC /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FBE6424D6D260002D08CC /* TodoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		824FBE5724D6C88B002D08CC /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		824FBE5B24D6C903002D08CC /* Todomodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todomodel.swift; sourceTree = "<group>"; };
 		824FBE6124D6CA00002D08CC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		824FBE6424D6D260002D08CC /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 		824FBE2224D6C704002D08CC /* MVCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				824FBE6324D6D23A002D08CC /* ViewModel */,
 				824FBE6024D6C9DB002D08CC /* Service */,
 				824FBE5E24D6C92B002D08CC /* Controller */,
 				824FBE5A24D6C8EC002D08CC /* Model */,
@@ -173,14 +170,6 @@
 				824FBE6124D6CA00002D08CC /* Service.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		824FBE6324D6D23A002D08CC /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				824FBE6424D6D260002D08CC /* TodoViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824FBE6524D6D260002D08CC /* TodoViewModel.swift in Sources */,
 				824FBE2824D6C705002D08CC /* ViewController.swift in Sources */,
 				824FBE6224D6CA00002D08CC /* Service.swift in Sources */,
 				824FBE5C24D6C903002D08CC /* Todomodel.swift in Sources */,

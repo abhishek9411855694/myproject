@@ -12,11 +12,11 @@ class DemoTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLbl: UILabel!
     
     @IBOutlet weak var statusLbl: UILabel!
-    var todo:todoViewModel!{
+    var todo:Todomodel1!{
         didSet{
             self.titleLbl.text = todo.title
-            self.statusLbl.text = todo.status
-            self.statusLbl.backgroundColor = todo.backColor
+            self.statusLbl.text = todo.completed ?? false ? "Completed" : "Pending"
+            self.statusLbl.backgroundColor = todo.completed ?? false ? .systemGreen : .red
         }
     }
     override func awakeFromNib() {

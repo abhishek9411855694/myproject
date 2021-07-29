@@ -5,7 +5,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var todoTablview: UITableView!
-    var todoVM : [todoViewModel]?
+    var todoVM : [Todomodel1]?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.fetchData()
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
                 print("Failed to fetch courses:", err)
                 return
             }
-            self?.todoVM = todolist?.map({return todoViewModel(todolist: $0)}) ?? []
+            self?.todoVM = todolist ?? []
             if let _ = self?.todoVM{
                 self?.todoTablview.reloadData()
             }
